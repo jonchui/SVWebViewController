@@ -16,5 +16,7 @@
 - (id)initWithURL:(NSURL*)URL;
 
 @property (nonatomic, readwrite) SVWebViewControllerAvailableActions availableActions;
+@property (nonatomic, strong) UIWebView *mainWebView;
+@property (nonatomic, strong) NSURL *URL;
 
 @end
